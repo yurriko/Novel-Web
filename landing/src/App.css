@@ -52,4 +52,9 @@ body {
   html {
     font-size: 12px;
   }
+  /* Карусель на экранах менее 480px */
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
 }
