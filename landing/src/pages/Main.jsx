@@ -12,6 +12,9 @@ import nine from '../assets/images/5409347989341858358.jpg';
 import ten from '../assets/images/5418246843751592402.jpg';
 import eleven from '../assets/images/5409347989341858357.jpg';
 import twelve from '../assets/images/image (1).jpg';
+import pr1 from '../assets/images/photo_5417942652692853444_y.jpg';
+import pr2 from '../assets/images/photo_5417942652692853431_y.jpg';
+import pr3 from '../assets/images/photo_5417942652692853452_y.jpg';
 import thir from '../assets/images/image_2025-03-28_03-33-56.png';
 
 import video from '../assets/images/youtube_B35lkeCBOsM_1920x1080_h264.mp4';
@@ -97,7 +100,46 @@ const Main = () => {
                         игры</h2>
                     <div className="flex space-x-6">
                         {/* Здесь будут загружаться превью статей */}
-                        <div className="bg-transparent shadow-md p-6 rounded w-96 h-96 overflow-y-auto "
+                        <div className="bg-transparent shadow-md p-6 rounded w-96 h-[440px] overflow-y-auto "
+                             style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
+                            <h3 className="text-xl font-semibold text-white mb-3">Понедельник.</h3>
+                            <h5 className="text-xl font-semibold text-white mb-3">28.03.25</h5>
+                            <p className="text-gray-400 pb-5">
+                                Наша команда представила первую версию игры не показав саму игру.
+                            </p>
+
+                            {/* Контейнер с изображениями */}
+                            <div className="space-y-4">
+                                <img src={pr1} className="w-full h-3/6 object-cover"/>
+                                <img src={pr3} className="w-full h-3/6 object-cover"/>
+                            </div>
+                        </div>
+                        <div className="bg-transparent shadow-md p-6 rounded  w-96">
+                            <h3 className="text-xl font-semibold text-white mb-3">Магия анимации: кривой сайт</h3>
+                            <h5 className="text-xl font-semibold text-white mb-3">28.03.25</h5>
+                            <p className="text-gray-400">
+                                Вы не поверите, но я(самый полезный участик) решила внести свой вклад не только в
+                                документацию и напоминание о дедлайне. Возможно. Сделать два блока на сайт? Да, это
+                                достижение! В общем,
+                                это первый шаблон моего костыльного ребенка, но он прадва будет лучше...Наверное. В
+                                любом случае, когда игра будет готова она появится тут.
+                            </p>
+                        </div>
+
+                        <div className="bg-transparent shadow-md p-6 rounded w-96">
+                            <h3 className="text-xl font-semibold text-white mb-3">Первые главы? Это стало
+                                реальностью!</h3>
+                            <h5 className="text-xl font-semibold text-white mb-3">27.03.25</h5>
+                            <p className="text-gray-400">
+                                Дорогие игроки, да, мы сделали это! Первые главы игры готовы! Мы прошли через туман
+                                многократных правок, пили кофе на протяжении всей ночи и, наконец, добились того, чтобы
+                                эти главы не были просто пустыми экранами с текстом. Мечтайте о сюжете, переживайте за
+                                героев, ведь именно они теперь могут совершать не только нелепые поступки, но и
+                                некоторые… осмысленные. Да, в общем, мы довольны!
+                            </p>
+                        </div>
+
+                        <div className="bg-transparent shadow-md p-6 rounded w-96 h-[440px] overflow-y-auto "
                              style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
                             <h3 className="text-xl font-semibold text-white mb-3">Наконец-то сделали спрайты!</h3>
                             <h5 className="text-xl font-semibold text-white mb-3">24.03.25</h5>
@@ -121,29 +163,6 @@ const Main = () => {
                             </div>
                         </div>
 
-                        <div className="bg-transparent shadow-md p-6 rounded w-96">
-                            <h3 className="text-xl font-semibold text-white mb-3">Первые главы? Это стало
-                                реальностью!</h3>
-                            <h5 className="text-xl font-semibold text-white mb-3">27.03.25</h5>
-                            <p className="text-gray-400">
-                                Дорогие игроки, да, мы сделали это! Первые главы игры готовы! Мы прошли через туман
-                                многократных правок, пили кофе на протяжении всей ночи и, наконец, добились того, чтобы
-                                эти главы не были просто пустыми экранами с текстом. Мечтайте о сюжете, переживайте за
-                                героев, ведь именно они теперь могут совершать не только нелепые поступки, но и
-                                некоторые… осмысленные. Да, в общем, мы довольны!
-                            </p>
-                        </div>
-                        <div className="bg-transparent shadow-md p-6 rounded  w-96">
-                            <h3 className="text-xl font-semibold text-white mb-3">Магия анимации: кривой сайт</h3>
-                            <h5 className="text-xl font-semibold text-white mb-3">28.03.25</h5>
-                            <p className="text-gray-400">
-                                Вы не поверите, но я(самый полезный участик) решила внести свой вклад не только в
-                                документацию и напоминание о дедлайне. Возможно. Сделать два блока на сайт? Да, это
-                                достижение! В общем,
-                                это первый шаблон моего костыльного ребенка, но он прадва будет лучше...Наверное. В
-                                любом случае, когда игра будет готова она появится тут.
-                            </p>
-                        </div>
                         <div className="bg-transparent shadow-md p-6 rounded  w-96">
                             {/* Показываем только одну аватарку в зависимости от сообщения */}
                             <img
@@ -175,7 +194,7 @@ const Main = () => {
                 </div>
             </div>
             <div className="w-full bg-black p-6">
-                <h2 className="text-3xl font-bold text-white mb-6 font-poppins text-center">Фотокарточки</h2>
+                <h2 className="text-3xl font-bold text-white mb-10 font-poppins text-center">Концепт-арты</h2>
                 {/* Grid контейнер для изображений */}
                 <div className="grid px-24 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {/* Изображения с анимацией при наведении */}
