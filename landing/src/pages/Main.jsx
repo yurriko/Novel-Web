@@ -145,7 +145,7 @@ const Main = () => {
                 <div id="news" className="justify-self-start lg:ml-28 ml-0">
                     <div className="flex space-x-6">
                         {/* Здесь будут загружаться превью статей */}
-                        <div className="bg-transparent shadow-md p-6 rounded  lg:w-96 w-80">
+                        <div className="bg-transparent shadow-md p-6 rounded  lg:w-96 min-w-80">
                             {/* Показываем только одну аватарку в зависимости от сообщения */}
                             <img
                                 src={messages[messageIndex].avatar}
