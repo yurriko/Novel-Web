@@ -9,6 +9,9 @@ module.exports = {
     'animate-sound-wave',
     'animate-wave'
   ],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
   theme: {
     extend: {
       keyframes: {
