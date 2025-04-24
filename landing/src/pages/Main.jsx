@@ -173,7 +173,7 @@ const Main = () => {
                             </motion.div>
                         </div>
                         <div
-                            className="bg-transparent shadow-md p-6 rounded lg:w-96 w-80 h-[440px] overflow-y-auto "
+                            className="bg-transparent shadow-md p-6 rounded lg:w-96 min-w-80 h-[440px] overflow-y-auto "
                             style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
                             <h3 className="text-xl font-semibold text-white mb-3">Оба Даниила покинули нас.</h3>
                             <h5 className="text-xl font-semibold text-white mb-3">24.04.25</h5>
@@ -188,7 +188,7 @@ const Main = () => {
                             </div>
                         </div>
                         <div
-                            className="bg-transparent shadow-md p-6 rounded lg:w-96 w-80 h-[440px] overflow-y-auto "
+                            className="bg-transparent shadow-md p-6 rounded lg:w-96 min-w-80 h-[440px] overflow-y-auto "
                             style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
                             <h3 className="text-xl font-semibold text-white mb-3">Однажды я получу свой
                                 tihiyden.com..</h3>
@@ -201,7 +201,7 @@ const Main = () => {
 
                         </div>
                         <div
-                            className="bg-transparent shadow-md p-6 rounded lg:w-96 w-80 h-[440px] overflow-y-auto "
+                            className="bg-transparent shadow-md p-6 rounded lg:w-96 min-w-80 h-[440px] overflow-y-auto "
                             style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
                             <h3 className="text-xl font-semibold text-white mb-3">Понедельник.</h3>
                             <h5 className="text-xl font-semibold text-white mb-3">28.03.25</h5>
@@ -231,7 +231,7 @@ const Main = () => {
                             </p>
                         </div>
 
-                        <div className="bg-transparent shadow-md p-6 rounded lg:w-96 w-80">
+                        <div className="bg-transparent shadow-md p-6 rounded lg:w-96 min-w-80">
                             <h3 className="text-xl font-semibold text-white mb-3">Первые главы? Это стало
                                 реальностью!</h3>
                             <h5 className="text-xl font-semibold text-white mb-3">27.03.25</h5>
@@ -248,7 +248,7 @@ const Main = () => {
                         </div>
 
                         <div
-                            className="bg-transparent shadow-md p-6 rounded lg:w-96 w-80 h-[440px] overflow-y-auto "
+                            className="bg-transparent shadow-md p-6 rounded lg:w-96 min-w-80 h-[440px] overflow-y-auto "
                             style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
                             <h3 className="text-xl font-semibold text-white mb-3">Наконец-то сделали
                                 спрайты!</h3>
@@ -275,16 +275,16 @@ const Main = () => {
                                 <img src={second} className="w-full h-auto object-cover"/>
                                 <img src={third} className="w-full h-auto object-cover"/>
                             </div>
+
+                            {/* Оставшиеся карточки */}
+
                         </div>
-
-
                     </div>
                 </div>
             </div>
-            <Gallery />
+            <Gallery/>
         </div>
-                )
-                ;
-                };
+    );
+};
 
-                export default Main;
+export default Main;
