@@ -215,7 +215,7 @@ const Main = () => {
                                 <img src={pr3} className="w-full h-3/6 object-cover"/>
                             </div>
                         </div>
-                        <div className="bg-transparent shadow-md p-6 rounded  lg:w-96 w-80">
+                        <div className="bg-transparent shadow-md p-6 rounded  lg:w-96 min-w-80">
                             <h3 className="text-xl font-semibold text-white mb-3">Магия анимации: кривой
                                 сайт</h3>
                             <h5 className="text-xl font-semibold text-white mb-3">28.03.25</h5>
