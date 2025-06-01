@@ -27,12 +27,21 @@ import new2 from '../assets/images/brebsi.png';
 import new3 from '../assets/images/tobecont.jpg';
 import new4 from '../assets/images/hand_watch.png';
 
+import f1 from '../assets/images/atele.jpg'
+import f2 from '../assets/images/banki.jpg'
+import f3 from '../assets/images/envelope.jpg'
+import f4 from '../assets/images/lynya.jpg'
+import f5 from '../assets/images/lynya_inside.jpg'
+import f6 from '../assets/images/motel_inside.jpg'
+import f7 from '../assets/images/taxiatday.jpg'
+import f8 from '../assets/images/whiskey.jpg'
+
 
 const Gallery = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentImage, setCurrentImage] = useState('');
 
-    const images = [new1, new3, new4, new2, six, nine, ten, seven, eleven, eight, twelve, thir];
+    const images = [f1, f2, f3, f6, f4, f5, f7, f8, new1, new3, new4, new2, six, nine, ten, seven, eleven, eight, twelve, thir];
 
     const openModal = (img) => {
         setCurrentImage(img);

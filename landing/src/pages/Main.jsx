@@ -175,14 +175,26 @@ const Main = () => {
                         <div
                             className="bg-transparent shadow-md p-6 rounded lg:w-96 min-w-80 h-[440px] overflow-y-auto "
                             style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
+                            <h3 className="text-xl font-semibold text-white mb-3">Конец</h3>
+                            <h5 className="text-xl font-semibold text-white mb-3">01.06.25</h5>
+                            <p className="text-gray-400 pb-5">
+                                Проект отправлен, сайт работает, жизнь удалась
+                            </p>
+
+                        </div>
+                        <div
+                            className="bg-transparent shadow-md p-6 rounded lg:w-96 min-w-80 h-[440px] overflow-y-auto "
+                            style={{overflowY: 'auto', scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
                             <h3 className="text-xl font-semibold text-white mb-3">Конец?</h3>
                             <h5 className="text-xl font-semibold text-white mb-3">27.05.25</h5>
                             <p className="text-gray-400 pb-5">
                                 Ура! Мы это сделали!
-                                Наша команда с гордостью представляет итоговую версию проекта – после долгих дней (и бессонных ночей) работы, игра наконец завершена!
+                                Наша команда с гордостью представляет итоговую версию проекта – после долгих дней (и
+                                бессонных ночей) работы, игра наконец завершена!
                                 Защита прошла успешно и теперь мы с радостью делимся результатом с вами.
 
-                                Скачать игру можно прямо здесь – кликайте на кнопку в правом верхнем углу и наслаждайтесь.
+                                Скачать игру можно прямо здесь – кликайте на кнопку в правом верхнем углу и
+                                наслаждайтесь.
 
                                 Спасибо всем, кто поддерживал нас на этом пути!
                             </p>
