@@ -82,12 +82,12 @@ const Layout = () => {
                         </ul>
                     </nav>
 
-                    <button
-                        onClick={handlePlayClick}
+                    <a
+                        href="https://disk.yandex.ru/d/dSHplgnA2S-RyQ"
                         className="hidden md:block px-4 py-2 mr-2 sm:mr-6 border-2 border-gray-700 text-white font-mono text-xl font-bold rounded hover:bg-gray-700 hover:text-white"
                     >
                         PLAY FOR FREE
-                    </button>
+                    </a>
                 </div>
             </header>
 
